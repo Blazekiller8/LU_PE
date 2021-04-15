@@ -1,0 +1,11 @@
+Q.Definition for tuple
+A.Tuple is a datatype in Python thats is similar to list and used to store collections of datas but its values are immutable ie, it cannot be edited in any way. This is used to store the collections of datas having a constant value and can also be used to return multiple values from a funtion.
+Eg.def student()
+    name = str(input("Enter student's name=> "))
+    age = int(input("Enter student's age=> "))
+    std = (name,age)
+    return std
+
+Q.Implementing Sub-dictionary inside a dictionary
+A. people = {1: {'name': 'John', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Marie', 'age': '22', 'sex': 'Female'}}
